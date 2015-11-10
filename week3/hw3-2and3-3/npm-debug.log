@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/Users/slove/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.21
+3 info using node@v4.2.1
+4 verbose config Skipping project config: /Users/slove/.npmrc. (matches userconfig)
+5 error install Couldn't read dependencies
+6 error package.json ENOENT: no such file or directory, open '/Users/slove/package.json'
+6 error package.json This is most likely not a problem with npm itself.
+6 error package.json npm can't find a package.json file in your current directory.
+7 error System Darwin 14.5.0
+8 error command "/usr/local/bin/node" "/Users/slove/local/bin/npm" "install"
+9 error cwd /Users/slove/Lab/mongodbu/week3/hw3-2and3-3
+10 error node -v v4.2.1
+11 error npm -v 1.4.21
+12 error path /Users/slove/package.json
+13 error syscall open
+14 error code ENOPACKAGEJSON
+15 error errno -2
+16 verbose exit [ -2, true ]
